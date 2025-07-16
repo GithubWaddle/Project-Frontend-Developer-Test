@@ -1,2 +1,2 @@
 # Project-Frontend-Developer-Test
-My submission for the frontend developer test for the Suitmedia Internship Program 2025.
+My submission for the frontend developer test of the Suitmedia Internship Program 2025.
