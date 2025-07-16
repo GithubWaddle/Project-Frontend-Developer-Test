@@ -23,7 +23,7 @@ let currentPageNumber = 1;
 let totalItemCount = 0;
 
 async function fetchPostData(pageNumber = 1, pageSize = 10, sortDirection = '-published_at') {
-  const baseUrl = 'https://your-vercel-project.vercel.app';
+  const baseUrl = 'https://project-frontend-developer-test-muhammad-rafi-indra-3h730arbk.vercel.app';
   const apiEndpoint = `${baseUrl}/api/ideas?...`;
   const fullImageUrl = `${baseUrl}/api/proxy-image?url=...`;
 
