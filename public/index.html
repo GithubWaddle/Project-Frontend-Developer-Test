@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple CMS Template</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header id="site-header">
+	<div>
+		<img class="turn-white" src="image/site-logo.png">
+	</div>
+    <nav>
+      <a href="#">Work</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="index.html" class="active">Ideas</a>
+      <a href="#">Careers</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <img src="image/new-banner.png" alt="Banner"/>
+    <div class="banner-triangle-cover"></div>
+    <div class="banner-text">
+      <div class="banner-title">Ideas</div>
+      <div class="banner-subtitle">Where all our great things begin</div>
+    </div>
+  </div>
+
+  <div class="content">
+      <div class="controls">
+	    <div id="controls-counter">Showing 1 - 10 of 100</div>
+        <div>
+          Show per page:
+          <select id="per-page">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+          </select>
+        </div>
+        <div>
+          Sort by:
+          <select id="sort">
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+          </select>
+        </div>
+      </div>
+
+    <div class="post-list" id="post-list">
+      <!-- post cards rendered here -->
+    </div>
+
+    <div class="pagination" id="pagination">
+      <button class="page-button" data-action="previous-set">«</button>
+      <button class="page-button" data-action="previous">‹</button>
+      <button class="page-button" data-page="1">1</button>
+      <button class="page-button" data-page="2">2</button>
+      <button class="page-button" data-page="3">3</button>
+      <button class="page-button" data-page="4">4</button>
+      <button class="page-button" data-action="next">›</button>
+      <button class="page-button" data-action="next-set">»</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
